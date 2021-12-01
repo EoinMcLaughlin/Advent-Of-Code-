@@ -7,6 +7,10 @@ namespace _2021
     {
         static void Main()
         {
+            DayOne();
+        }
+        static void DayOne()
+        {
             string[] numbers = File.ReadAllText(@"Day1.txt").Split(Environment.NewLine);
             int[] numbers2 = new int[numbers.Length];
             for (int i = 0; i < numbers.Length; i++)
